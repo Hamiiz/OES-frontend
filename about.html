@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css"> 
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/logins.css">
+    <script src="/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.bundle.js" defer></script>
+
+    <style>
+        
+        .bits{
+            color: greenyellow;
+
+        }
+        h1 , h2,h3,p,li,ul{
+            color: var(--text-color);
+        }
+        .cont{
+            border-radius: 1rem;
+            background-color: var(--background);
+        }
+
+    </style>
+</head>
+
+<body class="w-100 dark-theme">
+    <div class="blurrer"></div>  
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+      
+    <header>
+        <nav id='navid' class="navbar navbar-expand-sm px-2 pt-4  navbar-dark " aria-label="navbar">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarsExample08" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-brand"><img class="img-fluid" src="/assets/imgs/photo_2025_01_16_17_27_03_Photoroom_Photoroom_1_transformed_transformed.png" alt=""></div>
+              <div class="navbar-collapse justify-content-sm-center collapse show" id="navbar" >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="landing.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="landing.html#features">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="landing.html#pricing" >Pricing</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="about.html" >About Us</a>
+                  </li>
+                  
+                </ul>
+              </div>
+              <button class="btn theme-toggler btn-dark"><i class="fa-solid  fa-sun"></i></button>
+            </div>
+            </nav>
+        </header>
+        <main>
+            <div class="text-center cont w-50 mx-auto mt-4 p-4 m-4">
+                <h1>About Us</h1>
+                <h3>Who are We?</h3>
+                <p>OES is an application developed by students
+                    from the reknown center of technology and bussiness
+                    ,  <span class="bits">BITS</span> college.
+                    The app aims to simplify the traditional examination process
+                     both for schools and students.
+
+                </p>
+                <p>Here are the key Contributers to this project</p>
+                <ul class="text-start">
+                    <li>algorithm design by: </li>
+                    <li>Frontend Design by: </li>
+                    <li>Backend technology by: </li>
+                    <li>Frontend technology by: </li>
+                    <li>Documentation by: </li>
+                    <ul>Assistances to overall project by:
+                        <li></li>
+                    </ul>
+                </ul>
+            </div>
+        </main>
+    
+
+
+
+
+        <script>
+            let body =  $('body')
+          $('.theme-toggler').click((e)=>{
+              body.toggleClass('dark-theme')
+          
+          })
+          </script>
+</body>
+
+</html>
